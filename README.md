@@ -25,4 +25,4 @@ The lab environment I created and used was the following:
 - VM 2: Linux Mint running Docker to perform the different pentesting techniques to three different machines (in separete containers)
 - VM 3: Debian machine used to perform vulnearbility scan using Tenable Nessus and some Steganography techniques
 
-
+![Lab Enviroment](imgs/LabEnvironmnt.png)
