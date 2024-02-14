@@ -26,5 +26,5 @@ The lab environment I created and used was the following:
 - VM 3: Debian machine used to perform vulnearbility scan using Tenable Nessus and some Steganography techniques
 
 <p align="center">
-  <img width="460" height="300" src="imgs/LabEnvironment.png">
+  <img src="imgs/LabEnvironment.png">
 </p>
