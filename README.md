@@ -1,6 +1,6 @@
 # CTF-anonymous
 
-This will be the first of several series of a CTF that I've been doing as my final project in my master Degree in Cybersecurity.
+This will be the first of several series of a CTF that I've been doing as my final project in my Master Degree in Cybersecurity.
 
 In here I will explain the steps I followd and all the tools I used in order to find the different flags.
 
