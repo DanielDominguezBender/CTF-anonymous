@@ -2,9 +2,7 @@
 
 This will be the first of several series of a CTF that I've been doing as my final project in my Master Degree in Cybersecurity.
 
-In here I will explain the steps I followd and all the tools I used in order to find the different flags.
-
-Let's start :)
+In here I will explain the steps I followed and all the tools I used in order to find the different flags.
 
 ## Procedures followed
 
@@ -28,3 +26,15 @@ The lab environment I created and used was the following:
 <p align="center">
   <img src="imgs/LabEnvironment.png">
 </p>
+
+# Let's start 😃
+
+First of all, I will start with the <b>Enumeration</b> part of this CTF.
+To be honest, I already knew upfront the IP's I had to attack, but ususally I should have started using ```Netdiscover``` tool.
+
+<p aligne="center">
+  <img src="imgs/NetdiscoverImage.png>
+</p>
+
+>[!Tip]
+>In order to install and use it, you can follow the steps on the [Kali](https://www.kali.org/tools/netdiscover/) web page
