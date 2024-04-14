@@ -53,3 +53,42 @@ Now that I allocated the ```victim machine```(192.168.1.103), I can scan it and 
 ```linux
 $ nmap -F 192.168.1.103
 ```
+
+<p align="center">
+  <img src="imgs/OoopsMachineScan.png">
+</p>
+
+I can see folllowing ports open:
+
+|PORT|STATE|SERVICE|VERSION|
+|----|-----|-------|-------|
+|21/tcp|open|ftp|vsftpd 3.0.3|
+|22/tcp|open|ssh|OpenSSH 7.6p1 Ubuntu|
+|8080/tcp|open|http|Apache httpd 2.4.29|
+
+# PORT 21/tcp
+
+By making a more deep scan on ```port 21```I can see that ```anonymous login```is allowed.
+
+<p align="center">
+  <img src="imgs/Port21Scan.png">
+</p>
+
+So I will try to connect to the server using ```anonymous``` as the following credentials: ```login``` and ```password```.
+
+>[!NOTE]
+>When I typed the credentials on the password part, it was obviously not visible 💂‍♂️.
+
+<p align="center">
+  <img src="imgs/AnonymousLogin.png">
+</p>
+
+Once in the server, I list the contact of the actual directory:
+
+```linux
+$ ls -la
+```
+<p align="center">
+  <img src="imgs/AnonymousLS-LA.png">
+  <img src="imgs/AnonymousLS-LA.2.png">
+</p>
