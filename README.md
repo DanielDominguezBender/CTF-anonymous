@@ -32,10 +32,25 @@ The lab environment I created and used was the following:
 First of all, I will start with the <b>Enumeration</b> part of this CTF.
 To be honest, I already knew upfront the IP's I had to attack, but ususally I should have started using ```Netdiscover``` tool.
 
-<p aligne="center">
-  <img src="imgs/NetdiscoverImage.png>
+<p align="center">
+  <img src="imgs/NetdiscoverImage.png">
 </p>
 
 >[!TIP]
 >In order to install and use it, you can follow the steps on the [Kali](https://www.kali.org/tools/netdiscover/) web page.
+>[!TIP]
 
+Using following command I should be able to allocate some IP's in the current network.
+
+```linux
+$ sudo netdiscover -i eth0 -r 192.168.1.0/16
+```
+
+<p align="center">
+  <img src="imgs/NetdiscoverOutput.png">
+</p>
+
+Now that I allocated the ```victim machine```(192.168.1.103), I can scan it and see what ports are open.
+```linux
+$ nmap -F 192.168.1.103
+```
