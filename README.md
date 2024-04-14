@@ -36,5 +36,6 @@ To be honest, I already knew upfront the IP's I had to attack, but ususally I sh
   <img src="imgs/NetdiscoverImage.png>
 </p>
 
->[!Tip]
->In order to install and use it, you can follow the steps on the [Kali](https://www.kali.org/tools/netdiscover/) web page
+>[!TIP]
+>In order to install and use it, you can follow the steps on the [Kali](https://www.kali.org/tools/netdiscover/) web page.
+
