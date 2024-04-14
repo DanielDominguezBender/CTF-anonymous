@@ -29,6 +29,8 @@ The lab environment I created and used was the following:
 
 # Let's start 😃
 
+## Enumeration and fingerprinting
+
 First of all, I will start with the <b>Enumeration</b> part of this CTF.
 To be honest, I already knew upfront the IP's I had to attack, but ususally I should have started using ```Netdiscover``` tool.
 
