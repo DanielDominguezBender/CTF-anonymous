@@ -70,7 +70,7 @@ I can see folllowing ports open:
 
 # PORT 21/tcp
 
-By making a more deep scan on ```port 21```I can see that ```anonymous login```is allowed.
+By making a more deep scan on ```port 21``` I can see that ```anonymous login``` is allowed.
 
 <p align="center">
   <img src="imgs/Port21Scan.png">
@@ -94,6 +94,29 @@ $ ls -la
   <img src="imgs/AnonymousLS-LA.png">
   <img src="imgs/AnonymousLS-LA.2.png">
 </p>
+
+After having logged in via ftp session, I decide to <b>list</b> the directory content to see what other folders/files exist in the remote directory.I see that there is a folder called <b>html</b>. I can enter without problems using the cd (change directory) command and inside I list the content again: index.html.bak, index.php
+
+<p align="center"
+  <img src="imgs/HtmlFolder_content.PNG"
+</p>
+
+I choose to download these files for further exploration. I do this process through the terminal with the GET command.
+
+```linux
+get index.html.bak
+get index.php
+```
+<p align="center"
+  <img src="imgs/GetCommand.PNG"
+</p>
+
+I make a quick listing on my current diretory in the Linux machine to check if the files have been downloaded correctly.
+
+<p align="center"
+  <img src="imgs/ListingDownloadedIndexHtmlFiles.PNG"
+</p>
+
 
 >[!NOTE]
 >THIS REPO IS STILL UNDER 🚧 CONSTRUCTION 🚧
