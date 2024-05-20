@@ -97,8 +97,8 @@ $ ls -la
 
 After having logged in via ftp session, I decide to <b>list</b> the directory content to see what other folders/files exist in the remote directory.I see that there is a folder called <b>html</b>. I can enter without problems using the cd (change directory) command and inside I list the content again: index.html.bak, index.php
 
-<p align="center"
-  <img src="imgs/HtmlFolder_content.PNG"
+<p align="center">
+  <img src="imgs/HtmlFolder_content.PNG">
 </p>
 
 I choose to download these files for further exploration. I do this process through the terminal with the GET command.
@@ -107,14 +107,14 @@ I choose to download these files for further exploration. I do this process thro
 get index.html.bak
 get index.php
 ```
-<p align="center"
-  <img src="imgs/GetCommand.PNG"
+<p align="center">
+  <img src="imgs/GetCommand.PNG">
 </p>
 
 I make a quick listing on my current diretory in the Linux machine to check if the files have been downloaded correctly.
 
-<p align="center"
-  <img src="imgs/ListingDownloadedIndexHtmlFiles.PNG"
+<p align="center">
+  <img src="imgs/ListingDownloadedIndexHtmlFiles.PNG">
 </p>
 
 
